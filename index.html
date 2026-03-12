@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B4R4CTPYE8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B4R4CTPYE8');
+  </script>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Prostadine Review 2025: Does It Really Work? Ingredients, Side Effects &amp; Results</title>
   <meta name="description" content="Honest Prostadine review for 2025. We cover all 9 ingredients, real user results, side effects, pricing, scam warnings, and whether the 60-day guarantee holds up. Read before you buy.">
@@ -756,15 +764,23 @@
       <a href="#faq">FAQ</a>
       <a href="#disclosures">Disclosures</a>
     </div>
-    <p>&copy; 2025&ndash;2026 Prostadine Drops Review. All trademarks and brand names belong to their respective owners. This site is independently operated and not affiliated with or endorsed by the Prostadine brand or manufacturer.</p>
+    <p>&copy; 2025&ndash;<span id="footer-year">2026</span> Prostadine Drops Review. All trademarks and brand names belong to their respective owners. This site is independently operated and not affiliated with or endorsed by the Prostadine brand or manufacturer.</p>
     <p class="disclaimer">Results, pricing, and product availability are subject to change. Verify all details on the official product page before purchasing. Refunds are handled by the official provider per their terms.</p>
-    <p class="disclaimer" style="margin-top:8px">Last updated: March 2026</p>
+    <p class="disclaimer" style="margin-top:8px">Last updated: <span id="footer-last-updated">March 2026</span></p>
   </div>
 </footer>
 <button id="back-top" aria-label="Back to top">&#8593;</button>
 <script>
 (function(){var b=document.getElementById('scroll-progress');window.addEventListener('scroll',function(){var s=document.documentElement;var p=(s.scrollTop||document.body.scrollTop)/(s.scrollHeight-s.clientHeight)*100;b.style.width=Math.min(p,100)+'%';},{passive:true});})();
 (function(){var t=document.getElementById('back-top');window.addEventListener('scroll',function(){t.classList.toggle('show',window.scrollY>400);},{passive:true});t.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});})();
+(function(){
+  var d=new Date();
+  var months=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('footer-year').textContent=d.getFullYear();
+  document.getElementById('footer-last-updated').textContent=months[d.getMonth()]+' '+d.getFullYear();
+  var m=document.querySelector('meta[property="article:modified_time"]');
+  if(m){var iso=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')+'T00:00:00+00:00';m.setAttribute('content',iso);}
+})();
 </script>
 </body>
 </html>
