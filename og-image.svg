@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b1220"/>
+      <stop offset="60%" style="stop-color:#0e1830"/>
+      <stop offset="100%" style="stop-color:#091428"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3dd286"/>
+      <stop offset="100%" style="stop-color:#2ab870"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#57a7ff"/>
+      <stop offset="100%" style="stop-color:#3d8ff0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="120" r="180" fill="#3dd286" opacity="0.04"/>
+  <circle cx="150" cy="530" r="140" fill="#57a7ff" opacity="0.05"/>
+  <circle cx="600" cy="315" r="400" fill="#1a2640" opacity="0.2"/>
+
+  <!-- Drop icon large -->
+  <ellipse cx="100" cy="200" rx="28" ry="40" fill="url(#green)" opacity="0.85" filter="url(#glow)"/>
+  <polygon points="100,244 78,208 122,208" fill="url(#green)" opacity="0.85"/>
+
+  <!-- Brand -->
+  <text x="140" y="220" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="58" fill="#e8eefc" letter-spacing="-1">Prosta<tspan fill="#3dd286">dine</tspan></text>
+  <text x="141" y="248" font-family="Arial, sans-serif" font-size="16" fill="#b9c7e6" letter-spacing="2">PROSTATE SUPPORT DROPS</text>
+
+  <!-- Divider -->
+  <rect x="60" y="275" width="1080" height="2" rx="1" fill="#1a2742"/>
+
+  <!-- Headline -->
+  <text x="600" y="348" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="50" fill="#e8eefc" text-anchor="middle" letter-spacing="-1">Does Prostadine Really Work?</text>
+  <text x="600" y="400" font-family="Arial, sans-serif" font-size="26" fill="#b9c7e6" text-anchor="middle">Honest Review: Ingredients · Benefits · Pricing · Results</text>
+
+  <!-- Stars -->
+  <text x="600" y="455" font-family="Arial, sans-serif" font-size="36" fill="#ffd166" text-anchor="middle">★★★★★</text>
+  <text x="600" y="490" font-family="Arial, sans-serif" font-size="18" fill="#b9c7e6" text-anchor="middle">Rated 4.7/5 • 60-Day Money-Back Guarantee</text>
+
+  <!-- CTA pill -->
+  <rect x="420" y="515" width="360" height="52" rx="26" fill="url(#green)"/>
+  <text x="600" y="547" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="20" fill="#062c1c" text-anchor="middle">See Official Prostadine Offers →</text>
+
+  <!-- Domain watermark -->
+  <text x="600" y="608" font-family="Arial, sans-serif" font-size="15" fill="#4a6080" text-anchor="middle">reviews.prostadine.4ourmedia.com</text>
+</svg>

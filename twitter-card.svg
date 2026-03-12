@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b1220"/>
+      <stop offset="100%" style="stop-color:#0e1830"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3dd286"/>
+      <stop offset="100%" style="stop-color:#2ab870"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <!-- Decorative blobs -->
+  <circle cx="1100" cy="100" r="200" fill="#3dd286" opacity="0.04"/>
+  <circle cx="100" cy="500" r="150" fill="#57a7ff" opacity="0.05"/>
+
+  <!-- Drop icon -->
+  <ellipse cx="90" cy="190" rx="26" ry="38" fill="url(#green)" opacity="0.9"/>
+  <polygon points="90,232 68,200 112,200" fill="url(#green)" opacity="0.9"/>
+
+  <!-- Brand name -->
+  <text x="132" y="215" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="54" fill="#e8eefc" letter-spacing="-1">Prosta<tspan fill="#3dd286">dine</tspan></text>
+  <text x="133" y="242" font-family="Arial, sans-serif" font-size="15" fill="#b9c7e6" letter-spacing="2">PROSTATE SUPPORT DROPS</text>
+
+  <!-- Divider -->
+  <rect x="60" y="268" width="1080" height="1.5" rx="1" fill="#1a2742"/>
+
+  <!-- Main headline -->
+  <text x="600" y="336" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="46" fill="#e8eefc" text-anchor="middle">Prostadine Review 2025</text>
+  <text x="600" y="386" font-family="Arial, sans-serif" font-size="24" fill="#b9c7e6" text-anchor="middle">Real Ingredients • Real Results • 60-Day Guarantee</text>
+
+  <!-- Stars -->
+  <text x="600" y="440" font-family="Arial, sans-serif" font-size="34" fill="#ffd166" text-anchor="middle">★★★★★</text>
+
+  <!-- Badge pills -->
+  <rect x="300" y="464" width="180" height="36" rx="18" fill="#162545" stroke="#274273" stroke-width="1"/>
+  <text x="390" y="487" font-family="Arial, sans-serif" font-weight="700" font-size="14" fill="#a7c4ff" text-anchor="middle">Liquid Formula</text>
+
+  <rect x="510" y="464" width="180" height="36" rx="18" fill="#162545" stroke="#274273" stroke-width="1"/>
+  <text x="600" y="487" font-family="Arial, sans-serif" font-weight="700" font-size="14" fill="#a7c4ff" text-anchor="middle">9 Botanicals</text>
+
+  <rect x="720" y="464" width="180" height="36" rx="18" fill="#162545" stroke="#274273" stroke-width="1"/>
+  <text x="810" y="487" font-family="Arial, sans-serif" font-weight="700" font-size="14" fill="#a7c4ff" text-anchor="middle">Non-GMO</text>
+
+  <!-- URL -->
+  <text x="600" y="570" font-family="Arial, sans-serif" font-size="14" fill="#4a6080" text-anchor="middle">reviews.prostadine.4ourmedia.com</text>
+</svg>
